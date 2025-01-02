@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Amazon Web Test Suite" verbose="1" >
+
+<!--    test1-->
+    <test name="Using Chrome browser">
+        <parameter name="browser" value="Chrome Browser"/>
+        <classes>
+            <class name="ca.amazon.tests.Login"/>
+            <class name="ca.amazon.tests.SignUp"/>
+        </classes>
+    </test>
+
+    <test name="Using Safari Browser">
+        <parameter name="browser" value="Safari Browser" />
+        <classes>
+            <class name="ca.amazon.tests.Login"/>
+            <class name="ca.amazon.tests.SignUp"/>
+        </classes>
+<!--        <methods>-->
+<!--&lt;!&ndash;            <include name=".*smoke.*"/>&ndash;&gt; regular expressions In testng.xml file to search @Test-->
+<!--        methods containing the “smoke” keyword.-->
+<!--        </methods>-->
+
+
+    </test>
+
+</suite>
