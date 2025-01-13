@@ -24,7 +24,7 @@ public class Login extends TestBase {
         System.out.println("Login test 2 success");
     }
 
-    @Test (priority = 1, enabled  = false)
+    @Test (priority = 1)
     public void loginTest3(){
         super.logBrowserName();
 //        Assert.assertFalse(true,"The boolean value is true!");

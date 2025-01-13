@@ -5,18 +5,22 @@ import com.aventstack.extentreports.Status;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.lang.reflect.Array;
+
 public class SignUp extends TestBase {
 
     @Test
     public void signUpTest1(){
         super.logBrowserName();
         System.out.println("Sign Up test 1 success");
+
     }
 
     @Test
     public void signUpTest2(){
         super.logBrowserName();
         System.out.println("Sign Up test 2 success");
+
     }
 
     @Test
